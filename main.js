@@ -3,14 +3,16 @@ SC.initialize({
 });
 
 $(document).ready(function() {
-  SC.stream('/tracks/625048920',function(sound){
-    $('#start').click(function(e) {
-           e.preventDefault();
-           sound.start();
-         });
-    $('#stop').click(function(e) {
-           e.preventDefault();
-           sound.stop();
+  SC.stream('/tracks/343945137',function(sound){
+      $('#start').click(function(e) {
+          e.preventDefault();
+          sound.start();
+        });
+
+        $('#stop').click(function(e) {
+          e.preventDefault();
+          sound.stop();
         });
   });
-});
+}); 
+
