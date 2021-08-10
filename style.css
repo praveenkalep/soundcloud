@@ -1,0 +1,25 @@
+body{
+    background-image: url(https://image.freepik.com/free-photo/retro-film-reel-burn-background_271825-14.jpg);
+    padding: 100px;
+}
+button{
+    font-size: 65px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: brown;
+    border-radius: 25px;
+    box-shadow: 15px 15px 15px yellow;
+    width: 500px;
+    padding: 25px;
+}
+ #start{
+    background-color: rgb(10, 177, 177);
+}
+ #stop{
+    background-color: rgb(231, 13, 140);
+}
+h1{
+    text-align: center;
+    color: rgb(255, 4, 4);
+    font-size: 75px;
+    text-shadow:15px 15px 15px  teal;
+}
